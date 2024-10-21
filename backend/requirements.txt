@@ -1,5 +1,20 @@
+# FastAPI framework for building APIs quickly with Python
 fastapi==0.95.0
+
+# ASGI server for running FastAPI applications
 uvicorn==0.23.1
+
+# Hugging Face's Transformers library for state-of-the-art Natural Language Processing
 transformers==4.34.0
+
+# SentencePiece library for unsupervised text tokenizer and detokenizer
 sentencepiece==0.1.99
+
+# PyTorch is an open-source machine learning framework for deep learning
 torch==2.0.1
+
+# Sacremoses is a Python wrapper for the Moses tokenization library
+sacremoses
+
+# NumPy is a library for the Python programming language that adds support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays.
+numpy==1.26.4
