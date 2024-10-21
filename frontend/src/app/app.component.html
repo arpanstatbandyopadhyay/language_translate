@@ -1,0 +1,21 @@
+<div style="text-align:center">
+  <h1>Machine Translation</h1>
+  <textarea [(ngModel)]="text" rows="5" placeholder="Enter text to translate"></textarea><br>
+
+  <label for="srcLang">From:</label>
+  <select [(ngModel)]="srcLang" id="srcLang">
+    <option value="de">German</option>
+    <option value="en">English</option>
+  </select>
+
+  <label for="tgtLang">To:</label>
+  <select [(ngModel)]="tgtLang" id="tgtLang">
+    <option value="en">English</option>
+    <option value="de">German</option>
+  </select>
+
+  <button (click)="translate()">Translate</button>
+
+  <h3>Translation:</h3>
+  <p>{{ translation }}</p>
+</div>
