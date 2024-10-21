@@ -22,3 +22,9 @@ For Frontend :
 It will start frobtend application 
 http://localhost:4200
 
+This is the UI
+
+![image](https://github.com/user-attachments/assets/91a6016d-1696-467d-bc57-af9c8a7a3e55)
+
+Here you can translate from German to English and Visa-versa
+
